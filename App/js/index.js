@@ -62,7 +62,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input18")
-                .setLeft("-3.0476190476190474em")
+                .setLeft("-2.2857142857142856em")
                 .setTop("1.4476190476190476em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
@@ -77,7 +77,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input19")
-                .setLeft("-3.0476190476190474em")
+                .setLeft("-2.2857142857142856em")
                 .setTop("3.7333333333333334em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
@@ -90,7 +90,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input20")
-                .setLeft("-3.0476190476190474em")
+                .setLeft("-2.2857142857142856em")
                 .setTop("6.019047619047619em")
                 .setWidth("21.02857142857143em")
                 .setHeight("13.790476190476191em")
@@ -109,7 +109,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input21")
-                .setLeft("-3.0476190476190474em")
+                .setLeft("-2.2857142857142856em")
                 .setTop("20.495238095238093em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
@@ -122,7 +122,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input22")
-                .setLeft("-3.0476190476190474em")
+                .setLeft("-2.2857142857142856em")
                 .setTop("22.78095238095238em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
@@ -135,7 +135,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput8")
-                .setLeft("-3.0476190476190474em")
+                .setLeft("-2.2857142857142856em")
                 .setTop("25.066666666666666em")
                 .setWidth("18em")
                 .setLabelSize("8em")
@@ -147,7 +147,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button8")
-                .setLeft("5.333333333333333em")
+                .setLeft("6.095238095238095em")
                 .setTop("32.68571428571428em")
                 .setWidth("4.190476190476191em")
                 .setCaption("SAVE"),
@@ -157,7 +157,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox10")
-                .setLeft("4.571428571428571em")
+                .setLeft("5.333333333333333em")
                 .setTop("27.35238095238095em")
                 .setWidth("12em")
                 .setCaption("Case Opened"),
@@ -167,7 +167,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox11")
-                .setLeft("4.571428571428571em")
+                .setLeft("5.333333333333333em")
                 .setTop("30.4em")
                 .setWidth("12em")
                 .setCaption("Resolved"),
@@ -177,7 +177,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_tabs4.append(
                 xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox12")
-                .setLeft("4.571428571428571em")
+                .setLeft("5.333333333333333em")
                 .setTop("28.876190476190477em")
                 .setWidth("12em")
                 .setCaption("Pending"),
