@@ -59,6 +59,11 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("60.95238095238095em")
                 .setHeight("45.714285714285715em")
                 .setValue("a")
+                .setCustomStyle({
+                    "KEY" : {
+                        "background-color" : "#778899"
+                    }
+                })
             );
             
             host.xui_ui_tabs4.append(
