@@ -113,7 +113,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_htmlbutton3")
                 .setLeft("11.428571428571429em")
                 .setTop("0.7619047619047619em")
-                .setCaption("Email Templates Tab")
+                .setCaption("Email Templates")
             );
             
             append(
