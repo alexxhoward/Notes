@@ -103,7 +103,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button3")
                 .setLeft("6.095238095238095em")
-                .setTop("31.238095238095237em")
+                .setTop("35.80952380952381em")
                 .setWidth("4.190476190476191em")
                 .setCaption("SAVE")
             );
@@ -122,6 +122,33 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("5.333333333333333em")
                 .setTop("0.7619047619047619em")
                 .setCaption("Call Notes")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox1")
+                .setLeft("5.333333333333333em")
+                .setTop("30.476190476190474em")
+                .setWidth("12em")
+                .setCaption("Case Opened")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox2")
+                .setLeft("5.333333333333333em")
+                .setTop("33.523809523809526em")
+                .setWidth("12em")
+                .setCaption("Resolved")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox3")
+                .setLeft("5.333333333333333em")
+                .setTop("32em")
+                .setWidth("12em")
+                .setCaption("Pending")
             );
             
             append(
