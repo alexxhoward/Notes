@@ -24,19 +24,21 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input1")
                 .setLeft("-2.2857142857142856em")
-                .setTop("1.5238095238095237em")
+                .setTop("4.571428571428571em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
                 .setLabelCaption("NAME")
                 .setMultiLines(true)
+                .setExcelCellId("NAME")
+                .setExcelCellFormula("NOTE")
             );
             
             append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input2")
                 .setLeft("-2.2857142857142856em")
-                .setTop("3.8095238095238093em")
+                .setTop("6.857142857142857em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
@@ -48,7 +50,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input3")
                 .setLeft("-2.2857142857142856em")
-                .setTop("6.095238095238095em")
+                .setTop("9.142857142857142em")
                 .setWidth("21.02857142857143em")
                 .setHeight("13.790476190476191em")
                 .setLabelSize("8em")
@@ -66,7 +68,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input7")
                 .setLeft("-2.2857142857142856em")
-                .setTop("20.571428571428573em")
+                .setTop("23.61904761904762em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
@@ -78,7 +80,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input8")
                 .setLeft("-2.2857142857142856em")
-                .setTop("22.857142857142858em")
+                .setTop("25.904761904761905em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
@@ -90,7 +92,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput4")
                 .setLeft("-2.2857142857142856em")
-                .setTop("25.142857142857142em")
+                .setTop("28.19047619047619em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("DATE")
@@ -101,9 +103,25 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button3")
                 .setLeft("6.095238095238095em")
-                .setTop("28.19047619047619em")
+                .setTop("31.238095238095237em")
                 .setWidth("4.190476190476191em")
                 .setCaption("SAVE")
+            );
+            
+            append(
+                xui.create("xui.UI.HTMLButton")
+                .setHost(host,"xui_ui_htmlbutton3")
+                .setLeft("11.428571428571429em")
+                .setTop("0.7619047619047619em")
+                .setCaption("Email Templates Tab")
+            );
+            
+            append(
+                xui.create("xui.UI.HTMLButton")
+                .setHost(host,"xui_ui_htmlbutton4")
+                .setLeft("5.333333333333333em")
+                .setTop("0.7619047619047619em")
+                .setCaption("Call Notes")
             );
             
             append(
