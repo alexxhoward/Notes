@@ -61,7 +61,10 @@ xui.Class('App', 'xui.Module',{
                 .setValue("a")
                 .setCustomStyle({
                     "KEY" : {
-                        "background-color" : "#778899"
+                        "color" : "#000000",
+                        "background-color" : "#778899",
+                        "font-weight" : "400",
+                        "font-style" : "italic"
                     }
                 })
             );
