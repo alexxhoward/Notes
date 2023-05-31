@@ -23,7 +23,7 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input1")
-                .setLeft("-3.8095238095238093em")
+                .setLeft("-2.2857142857142856em")
                 .setTop("1.5238095238095237em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
@@ -35,7 +35,7 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input2")
-                .setLeft("-3.8095238095238093em")
+                .setLeft("-2.2857142857142856em")
                 .setTop("3.8095238095238093em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
@@ -47,13 +47,48 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input3")
-                .setLeft("-3.8095238095238093em")
+                .setLeft("-2.2857142857142856em")
                 .setTop("6.095238095238095em")
                 .setWidth("21.02857142857143em")
                 .setHeight("13.790476190476191em")
                 .setLabelSize("8em")
                 .setLabelCaption("ISSUE")
                 .setMultiLines(true)
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input7")
+                .setLeft("-2.2857142857142856em")
+                .setTop("20.571428571428573em")
+                .setWidth("21.02857142857143em")
+                .setHeight("1.6em")
+                .setLabelSize("8em")
+                .setLabelCaption("PHONE")
+                .setMultiLines(true)
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input8")
+                .setLeft("-2.2857142857142856em")
+                .setTop("22.857142857142858em")
+                .setWidth("21.02857142857143em")
+                .setHeight("1.6em")
+                .setLabelSize("8em")
+                .setLabelCaption("COMPANY")
+                .setMultiLines(true)
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput4")
+                .setLeft("-2.2857142857142856em")
+                .setTop("25.142857142857142em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("DATE")
+                .setType("datetime")
             );
             
             return children;
