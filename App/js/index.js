@@ -21,36 +21,77 @@ xui.Class('App', 'xui.Module',{
             var host=this, children=[], append=function(child){children.push(child.get(0));};
             
             append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button3")
+                .setLeft("6.095238095238095em")
+                .setTop("35.80952380952381em")
+                .setWidth("4.190476190476191em")
+                .setCaption("SAVE")
+            );
+            
+            append(
+                xui.create("xui.UI.Tabs")
+                .setHost(host,"xui_ui_tabs4")
+                .setItems([
+                    {
+                        "id" : "a",
+                        "caption" : "Notes",
+                        "imageClass" : "xui-icon-xui"
+                    },
+                    {
+                        "id" : "b",
+                        "caption" : "Email Temps"
+                    },
+                    {
+                        "id" : "c",
+                        "caption" : "page3"
+                    },
+                    {
+                        "id" : "d",
+                        "caption" : "page4",
+                        "closeBtn" : true,
+                        "optBtn" : "xui-uicmd-opt",
+                        "popBtn" : true
+                    }
+                ])
+                .setLeft("0em")
+                .setTop("0em")
+                .setValue("a")
+            );
+            
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input1")
-                .setLeft("-2.2857142857142856em")
-                .setTop("4.571428571428571em")
+                .setHost(host,"xui_ui_input18")
+                .setLeft("-3.0476190476190474em")
+                .setTop("1.4476190476190476em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
                 .setLabelCaption("NAME")
                 .setMultiLines(true)
                 .setExcelCellId("NAME")
-                .setExcelCellFormula("NOTE")
+                .setExcelCellFormula("NOTE"),
+                "a"
             );
             
-            append(
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input2")
-                .setLeft("-2.2857142857142856em")
-                .setTop("6.857142857142857em")
+                .setHost(host,"xui_ui_input19")
+                .setLeft("-3.0476190476190474em")
+                .setTop("3.7333333333333334em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
                 .setLabelCaption("RIG")
-                .setMultiLines(true)
+                .setMultiLines(true),
+                "a"
             );
             
-            append(
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input3")
-                .setLeft("-2.2857142857142856em")
-                .setTop("9.142857142857142em")
+                .setHost(host,"xui_ui_input20")
+                .setLeft("-3.0476190476190474em")
+                .setTop("6.019047619047619em")
                 .setWidth("21.02857142857143em")
                 .setHeight("13.790476190476191em")
                 .setLabelSize("8em")
@@ -61,94 +102,86 @@ xui.Class('App', 'xui.Module',{
                         "text-align" : "left",
                         "overflow" : "visible"
                     }
-                })
+                }),
+                "a"
             );
             
-            append(
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input7")
-                .setLeft("-2.2857142857142856em")
-                .setTop("23.61904761904762em")
+                .setHost(host,"xui_ui_input21")
+                .setLeft("-3.0476190476190474em")
+                .setTop("20.495238095238093em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
                 .setLabelCaption("PHONE")
-                .setMultiLines(true)
+                .setMultiLines(true),
+                "a"
             );
             
-            append(
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input8")
-                .setLeft("-2.2857142857142856em")
-                .setTop("25.904761904761905em")
+                .setHost(host,"xui_ui_input22")
+                .setLeft("-3.0476190476190474em")
+                .setTop("22.78095238095238em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
                 .setLabelCaption("COMPANY")
-                .setMultiLines(true)
+                .setMultiLines(true),
+                "a"
             );
             
-            append(
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput4")
-                .setLeft("-2.2857142857142856em")
-                .setTop("28.19047619047619em")
+                .setHost(host,"xui_ui_comboinput8")
+                .setLeft("-3.0476190476190474em")
+                .setTop("25.066666666666666em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("DATE")
-                .setType("datetime")
+                .setType("datetime"),
+                "a"
             );
             
-            append(
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.Button")
-                .setHost(host,"xui_ui_button3")
-                .setLeft("6.095238095238095em")
-                .setTop("35.80952380952381em")
+                .setHost(host,"xui_ui_button8")
+                .setLeft("5.333333333333333em")
+                .setTop("32.68571428571428em")
                 .setWidth("4.190476190476191em")
-                .setCaption("SAVE")
+                .setCaption("SAVE"),
+                "a"
             );
             
-            append(
-                xui.create("xui.UI.HTMLButton")
-                .setHost(host,"xui_ui_htmlbutton3")
-                .setLeft("11.428571428571429em")
-                .setTop("0.7619047619047619em")
-                .setCaption("Email Templates")
-            );
-            
-            append(
-                xui.create("xui.UI.HTMLButton")
-                .setHost(host,"xui_ui_htmlbutton4")
-                .setLeft("5.333333333333333em")
-                .setTop("0.7619047619047619em")
-                .setCaption("Call Notes")
-            );
-            
-            append(
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox1")
-                .setLeft("5.333333333333333em")
-                .setTop("30.476190476190474em")
+                .setHost(host,"xui_ui_checkbox10")
+                .setLeft("4.571428571428571em")
+                .setTop("27.35238095238095em")
                 .setWidth("12em")
-                .setCaption("Case Opened")
+                .setCaption("Case Opened"),
+                "a"
             );
             
-            append(
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox2")
-                .setLeft("5.333333333333333em")
-                .setTop("33.523809523809526em")
+                .setHost(host,"xui_ui_checkbox11")
+                .setLeft("4.571428571428571em")
+                .setTop("30.4em")
                 .setWidth("12em")
-                .setCaption("Resolved")
+                .setCaption("Resolved"),
+                "a"
             );
             
-            append(
+            host.xui_ui_tabs4.append(
                 xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox3")
-                .setLeft("5.333333333333333em")
-                .setTop("32em")
+                .setHost(host,"xui_ui_checkbox12")
+                .setLeft("4.571428571428571em")
+                .setTop("28.876190476190477em")
                 .setWidth("12em")
-                .setCaption("Pending")
+                .setCaption("Pending"),
+                "a"
             );
             
             append(
