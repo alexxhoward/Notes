@@ -56,6 +56,8 @@ xui.Class('App', 'xui.Module',{
                 ])
                 .setLeft("0em")
                 .setTop("0em")
+                .setWidth("60.95238095238095em")
+                .setHeight("45.714285714285715em")
                 .setValue("a")
             );
             
@@ -110,7 +112,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input21")
                 .setLeft("-2.2857142857142856em")
-                .setTop("20.495238095238093em")
+                .setTop("21.257142857142856em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
@@ -123,7 +125,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input22")
                 .setLeft("-2.2857142857142856em")
-                .setTop("22.78095238095238em")
+                .setTop("23.542857142857144em")
                 .setWidth("21.02857142857143em")
                 .setHeight("1.6em")
                 .setLabelSize("8em")
@@ -136,7 +138,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput8")
                 .setLeft("-2.2857142857142856em")
-                .setTop("25.066666666666666em")
+                .setTop("25.82857142857143em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("DATE")
@@ -148,7 +150,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button8")
                 .setLeft("6.095238095238095em")
-                .setTop("32.68571428571428em")
+                .setTop("33.44761904761905em")
                 .setWidth("4.190476190476191em")
                 .setCaption("SAVE"),
                 "a"
@@ -158,7 +160,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox10")
                 .setLeft("5.333333333333333em")
-                .setTop("27.35238095238095em")
+                .setTop("28.114285714285714em")
                 .setWidth("12em")
                 .setCaption("Case Opened"),
                 "a"
@@ -168,7 +170,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox11")
                 .setLeft("5.333333333333333em")
-                .setTop("30.4em")
+                .setTop("31.16190476190476em")
                 .setWidth("12em")
                 .setCaption("Resolved"),
                 "a"
@@ -178,7 +180,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox12")
                 .setLeft("5.333333333333333em")
-                .setTop("28.876190476190477em")
+                .setTop("29.63809523809524em")
                 .setWidth("12em")
                 .setCaption("Pending"),
                 "a"
