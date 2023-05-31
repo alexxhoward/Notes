@@ -200,6 +200,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_dialog2")
                 .setLeft("21.333333333333332em")
                 .setTop("1.6761904761904762em")
+                .setHtml("www.RigCLOUD.com")
                 .setCaption("Dialog"),
                 "a"
             );
