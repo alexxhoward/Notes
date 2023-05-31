@@ -195,6 +195,15 @@ xui.Class('App', 'xui.Module',{
                 "a"
             );
             
+            host.xui_ui_tabs4.append(
+                xui.create("xui.UI.Dialog")
+                .setHost(host,"xui_ui_dialog2")
+                .setLeft("21.333333333333332em")
+                .setTop("1.6761904761904762em")
+                .setCaption("Dialog"),
+                "a"
+            );
+            
             append(
                 xui.create("xui.UI.CSSBox")
                 .setHost(host,"xui_ui_cssbox3")
