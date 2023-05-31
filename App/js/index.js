@@ -19,7 +19,43 @@ xui.Class('App', 'xui.Module',{
         iniComponents : function(){
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
-
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input1")
+                .setLeft("-3.8095238095238093em")
+                .setTop("1.5238095238095237em")
+                .setWidth("21.02857142857143em")
+                .setHeight("1.6em")
+                .setLabelSize("8em")
+                .setLabelCaption("NAME")
+                .setMultiLines(true)
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input2")
+                .setLeft("-3.8095238095238093em")
+                .setTop("3.8095238095238093em")
+                .setWidth("21.02857142857143em")
+                .setHeight("1.6em")
+                .setLabelSize("8em")
+                .setLabelCaption("RIG")
+                .setMultiLines(true)
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input3")
+                .setLeft("-3.8095238095238093em")
+                .setTop("6.095238095238095em")
+                .setWidth("21.02857142857143em")
+                .setHeight("13.790476190476191em")
+                .setLabelSize("8em")
+                .setLabelCaption("ISSUE")
+                .setMultiLines(true)
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
