@@ -91,6 +91,15 @@ xui.Class('App', 'xui.Module',{
                 .setType("datetime")
             );
             
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button3")
+                .setLeft("6.095238095238095em")
+                .setTop("28.19047619047619em")
+                .setWidth("4.190476190476191em")
+                .setCaption("SAVE")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
