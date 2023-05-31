@@ -54,6 +54,12 @@ xui.Class('App', 'xui.Module',{
                 .setLabelSize("8em")
                 .setLabelCaption("ISSUE")
                 .setMultiLines(true)
+                .setCustomStyle({
+                    "KEY" : {
+                        "text-align" : "left",
+                        "overflow" : "visible"
+                    }
+                })
             );
             
             append(
@@ -98,6 +104,12 @@ xui.Class('App', 'xui.Module',{
                 .setTop("28.19047619047619em")
                 .setWidth("4.190476190476191em")
                 .setCaption("SAVE")
+            );
+            
+            append(
+                xui.create("xui.UI.CSSBox")
+                .setHost(host,"xui_ui_cssbox3")
+                .setClassName("xui-css-aej")
             );
             
             return children;
